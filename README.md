@@ -1,14 +1,13 @@
 # Processo Seletivo Conjunto Nº 001/2026/SEPLAG
 
-## Run:
+Frontend desenvolvido em React + Vite + TypeScript + Tailwind CSS, 
+consumindo a API pública: https://pet-manager-api.geia.vip/q/swagger-ui/
 
-Frontend desenvolvido em React + Vite + TypeScript + Tailwind CSS, consumindo a API pública: https://pet-manager-api.geia.vip/q/swagger-ui/
-
-####
+#### Run:
 - npm install
 - npm run dev
 
-#### Link/Localhost
+#### Link/Localhost:
 
 - http://localhost:3000/login
 
