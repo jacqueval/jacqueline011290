@@ -1,0 +1,78 @@
+
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(90deg, #569178, #7c5aaf);
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+  color: #000000;
+}
+
+/* ======= LOGIN ======= */
+.login{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 5px;
+  background: linear-gradient(90deg, #daf3e9, #9756f8);
+  border-radius: 45px;
+
+}
+
+
+/* ======= Pg. Login ======= */
+.login-form  {
+margin: 75px; 
+width: 300px;
+display: flex; 
+flex-direction: column; 
+gap: 5px; /* Espaço entre os elementos */ 
+}
+
+.login-link a {
+  color: #a089eb;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  padding: 2px;
+
+}
+
+/* ======= Pg. Pets Disponiveis ======= */
+.pet {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 5px;
+  background: linear-gradient(90deg, #daf3e9, #9756f8);
+  border-radius: 45px;
+
+}
+
+/* ======= Buscar Nome Pets ======= */
+.search-box input {
+  margin-top: 45px;
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: rgba(0,0,0,0.4);
+  color: aliceblue;
+  font-size: 14px;
+}
+
+/* ======= (botões) Anterios/Proximo ======= */
+.but-pet {
+  margin-top: 20px;
+  padding: 24px;
+  text-align: center;
+  opacity: 0.6;
+  
+}
+
