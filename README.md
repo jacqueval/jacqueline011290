@@ -16,8 +16,7 @@ consumindo a API pública: https://pet-manager-api.geia.vip/q/swagger-ui/
 - http://localhost:3000/login
 
 #### Estrutura do Projeto
-
-    <img width="510" height="411" alt="image" src="https://github.com/user-attachments/assets/e6cf77c7-5dfc-477a-a3a3-b63157dbf1a1" />
+<img width="510" height="411" alt="image" src="https://github.com/user-attachments/assets/e6cf77c7-5dfc-477a-a3a3-b63157dbf1a1" />
 
 
 
