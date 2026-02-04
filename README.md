@@ -16,23 +16,7 @@ consumindo a API pública: https://pet-manager-api.geia.vip/q/swagger-ui/
 - http://localhost:3000/login
 
 #### Estrutura do Projeto
-src/
-├── App.tsx              # Configuração de rotas
-├── main.tsx             # Ponto de entrada
-├── index.css            # Estilos globais com Tailwind
-├── routes/              # Componentes de página
-│   ├── Index.tsx        # Menu principal (Home)
-│   ├── Login.tsx        # Autenticação
-│   ├── Pets.tsx         # Lista de pets
-│   ├── PetForm.tsx      # Criar/editar pet
-│   ├── PetDetail.tsx    # Detalhes do pet
-│   ├── Tutores.tsx      # Lista de tutores
-│   ├── TutorForm.tsx    # Criar/editar tutor
-│   └── TutorDetail.tsx  # Detalhes do tutor
-├── components/          # Componentes reutilizáveis
-│   └── Input.tsx        # Input customizado
-└── services/
-    └── api.ts           # Cliente Axios com interceptors
+
     <img width="510" height="411" alt="image" src="https://github.com/user-attachments/assets/e6cf77c7-5dfc-477a-a3a3-b63157dbf1a1" />
 
 
