@@ -33,6 +33,8 @@ src/
 │   └── Input.tsx        # Input customizado
 └── services/
     └── api.ts           # Cliente Axios com interceptors
+    <img width="510" height="411" alt="image" src="https://github.com/user-attachments/assets/e6cf77c7-5dfc-477a-a3a3-b63157dbf1a1" />
+
 
 
 ###  Projeto Desenvolvedor Front End
