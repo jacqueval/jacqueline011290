@@ -6,6 +6,7 @@ type PetFormData = {
   nome: string;
   raca: string;
   idade: number;
+  foto?: File | null;
 };
 
 export default function PetForm() {
@@ -19,6 +20,18 @@ export default function PetForm() {
   const [error, setError] = useState("");
   const navigate = useNavigate();
   const isEditing = !!id;
+
+  
+  const [preview, setPreview] = useState<string | null>(null);
+  const handlePhotoChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const file = e.target.files?.[0];
+
+  if (file) {
+    
+    setPreview(URL.createObjectURL(file));
+  }
+};
+
 
   useEffect(() => {
     if (isEditing && id) {
@@ -120,11 +133,37 @@ export default function PetForm() {
 
             {error && <p className="text-red-400 text-sm">{error}</p>}
 
+
+            {/* Foto do Pet */}
+            <div className="flex flex-col items-center gap-3 mt-4">
+              
+              {preview && (
+                <img
+                  src={preview}
+                  alt="Preview do pet"
+                  className="w-32 h-32 rounded-full object-cover border-2 border-purple-400"
+                />
+              )}
+
+              <label className="cursor-pointer bg-purple-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-purple-700 transition">
+                📸 Adicionar foto
+                <input
+                  type="file"
+                  accept="image/*"
+                  onChange={handlePhotoChange}
+                  className="hidden"
+                />
+              </label>
+            </div>
+
+
             <button
               type="submit"
               disabled={loading}>
               {loading ? `${isEditing ? "Atualizando" : "Cadastrando"}...` : `${isEditing ? "Atualizar" : "Cadastrar"} Pet`}
             </button>
+
+            
 
             <button type="button" onClick={() => navigate(-1)}>
               ← Voltar
