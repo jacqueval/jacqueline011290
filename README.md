@@ -1,4 +1,4 @@
-# Processo Seletivo Conjunto Nº 001/2026/SEPLAG
+# Projeto Cadastramento de Pets
 
 Frontend desenvolvido em React + Vite + TypeScript + Tailwind CSS, 
 consumindo a API pública: https://pet-manager-api.geia.vip/q/swagger-ui/
